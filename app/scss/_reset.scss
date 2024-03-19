@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	color: inherit;
+	font: inherit;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+textarea {
+	resize: none;
+}
+
+html,
+body {
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}

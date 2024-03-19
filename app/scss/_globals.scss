@@ -1,0 +1,31 @@
+body {
+	font-family: "Bebas Neue";
+	font-size: 16px;
+}
+
+button, a {
+    transition: all .2s;
+}
+
+.container {
+	max-width: 1355px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.title {
+    font-size: 48px;
+    letter-spacing: -0.03em;
+    color: #454B48;
+    line-height: 86%;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Manrope';
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    line-height: 86%;
+    color: #454B48;
+    margin-bottom: 16px;
+}
