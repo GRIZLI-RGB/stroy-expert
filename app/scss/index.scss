@@ -5,13 +5,13 @@
 
 // HEADER
 .header {
-	height: 100px;
+	height: 6.944vw;
 	position: absolute;
 	left: 0;
 	right: 0;
 	background: rgba(255, 255, 255, 12%);
 	z-index: 5;
-	padding-right: 64px;
+	padding-right: 4.444vw;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -35,7 +35,7 @@
 			&__right {
 				display: flex;
 				align-items: center;
-				gap: 24px;
+				gap: 1.667vw;
 				font-family: "Lato";
 				color: white;
 				&-info {
@@ -62,48 +62,48 @@
 		align-items: center;
 		&-boxLogo {
 			position: relative;
-			padding-left: 64px;
+			padding-left: 4.444vw;
 			display: flex;
 			align-items: center;
 			height: 100%;
 			&-bg {
 				position: absolute;
 				top: 0;
-                border-radius: 5px;
-				left: -30px;
-                right: -30px;
+                border-radius: 0.347vw;
+				left: -2.083vw;
+                right: -2.083vw;
                 height: 100%;
                 transform: skewX(-20deg);
                 background: #F3F3F3;
 			}
 			&-logo {
-				height: 56px;
+				height: 3.889vw;
 				position: relative;
 				z-index: 1;
 			}
 		}
 		&-menu {
-			margin-left: 50px;
+			margin-left: 3.472vw;
 			display: flex;
 			align-items: center;
-			gap: 12px;
+			gap: 0.833vw;
 			&-item {
-				height: 36px;
-				padding: 0 16px;
-				border-radius: 8px;
+				height: 2.5vw;
+				padding: 0 1.111vw;
+				border-radius: 0.556vw;
 				background: rgba(255, 255, 255, 10%);
 				display: flex;
 				align-items: center;
-				gap: 11px;
+				gap: 0.764vw;
 				font-family: "Lato";
-				font-size: 13px;
+				font-size: 0.903vw;
 				letter-spacing: -0.03em;
-				padding-bottom: 2px;
+				padding-bottom: 0.139vw;
 				&:hover {
 					background: rgba(255, 255, 255, 20%);
 				}
 				img {
-					padding-top: 3px;
+					padding-top: 0.208vw;
 				}
 			}
 		}
@@ -111,7 +111,7 @@
 	&__right {
 		display: flex;
 		align-items: center;
-		gap: 24px;
+		gap: 1.667vw;
 		font-family: "Lato";
 		color: white;
 		&-info {
@@ -120,15 +120,15 @@
 			align-items: flex-end;
 			&--phone {
 				font-weight: 700;
-				font-size: 15px;
-				margin-bottom: 2px;
+				font-size: 1.042vw;
+				margin-bottom: 0.139vw;
 				letter-spacing: -0.03em;
 			}
 			&--callMe {
 				color: #e0491f;
-				font-size: 13px;
+				font-size: 0.903vw;
 				text-decoration: underline;
-				text-underline-offset: 3px;
+				text-underline-offset: 0.208vw;
 				letter-spacing: -0.03em;
 				transition: opacity 0.2s;
 				cursor: pointer;
@@ -139,22 +139,22 @@
 			}
 		}
 		&-button {
-			height: 36px;
-			padding: 0 16px;
-			border-radius: 8px;
+			height: 2.5vw;
+			padding: 0 1.111vw;
+			border-radius: 0.556vw;
 			background: rgba(255, 255, 255, 10%);
 			display: flex;
 			align-items: center;
-			gap: 11px;
+			gap: 0.764vw;
 			font-family: "Lato";
-			font-size: 13px;
+			font-size: 0.903vw;
 			letter-spacing: -0.03em;
-			padding-bottom: 2px;
+			padding-bottom: 0.139vw;
 			&:hover {
 				background: rgba(255, 255, 255, 20%);
 			}
 			img {
-				padding-top: 3px;
+				padding-top: 0.208vw;
 			}
 		}
 	}
@@ -162,7 +162,7 @@
 
 // PREVIEW
 .preview {
-	padding-top: 145px;
+	padding-top: 10.069vw;
 	position: relative;
 	.container {
 		display: flex;
@@ -170,10 +170,10 @@
 		justify-content: space-between;
 	}
 	&__info {
-		max-width: 476px;
+		max-width: 33.056vw;
 		&-bread {
 			font-family: "Manrope";
-			font-size: 20px;
+			font-size: 1.389vw;
 			font-weight: 700;
 			line-height: 157%;
 			color: black;
@@ -186,29 +186,29 @@
 		}
 		&-title {
 			font-weight: 700;
-			font-size: 62px;
+			font-size: 4.306vw;
 			line-height: 100%;
-			letter-spacing: -3px;
+			letter-spacing: -0.208vw;
 			color: #484848;
-			margin: 32px 0;
+			margin: 2.222vw 0;
 		}
 		&-text {
-			max-width: 289px;
+			max-width: 20.069vw;
 			font-family: "Raleway";
-			font-size: 20px;
+			font-size: 1.389vw;
 			color: #484848;
-			margin-bottom: 28px;
+			margin-bottom: 1.944vw;
 		}
 		&-button {
-			width: 284px;
-			border-radius: 8px;
+			width: 19.722vw;
+			border-radius: 0.556vw;
 			background: #da4813;
-			padding: 12px;
+			padding: 0.833vw;
 			font-family: "Manrope";
 			font-weight: 500;
 			line-height: 86.5%;
 			letter-spacing: -0.03em;
-			height: 64px;
+			height: 4.444vw;
 			color: white;
 			position: relative;
 			display: flex;
@@ -220,21 +220,21 @@
 			}
 			img {
 				position: absolute;
-				right: 10px;
-				bottom: 8px;
+				right: 0.694vw;
+				bottom: 0.556vw;
 				filter: invert(1);
 			}
 		}
 	}
 	&__pipes {
-		margin-right: -64px;
+		margin-right: -4.444vw;
 	}
 }
 
 // WELCOME
 .welcome {
 	background: url("../images/welcome-banner.jpg") no-repeat center / cover;
-	min-height: 650px;
+	min-height: 45.139vw;
 	color: white;
 	display: flex;
 	align-items: flex-end;
@@ -243,35 +243,35 @@
 	}
 	&__content {
 		display: flex;
-		gap: 220px;
-		padding: 90px 0;
+		gap: 15.278vw;
+		padding: 6.25vw 0;
 		&-title {
-			max-width: 476px;
-			font-size: 107px;
-			letter-spacing: -3px;
+			max-width: 33.056vw;
+			font-size: 7.431vw;
+			letter-spacing: -0.208vw;
 			line-height: 100%;
 		}
 		&-right {
 			align-self: flex-end;
-			max-width: 284px;
+			max-width: 19.722vw;
 			align-self: flex-end;
-			margin-bottom: 16px;
+			margin-bottom: 1.111vw;
 			&-text {
 				font-family: "Raleway";
-				font-size: 20px;
+				font-size: 1.389vw;
 				color: white;
-				margin-bottom: 28px;
+				margin-bottom: 1.944vw;
 			}
 			&-button {
 				width: 100%;
-				border-radius: 8px;
+				border-radius: 0.556vw;
 				background: #da4813;
-				padding: 12px;
+				padding: 0.833vw;
 				font-family: "Manrope";
 				font-weight: 500;
 				line-height: 86.5%;
 				letter-spacing: -0.03em;
-				height: 64px;
+				height: 4.444vw;
 				position: relative;
 				display: flex;
 				&:hover {
@@ -282,8 +282,8 @@
 				}
 				img {
 					position: absolute;
-					right: 10px;
-					bottom: 8px;
+					right: 0.694vw;
+					bottom: 0.556vw;
 					filter: invert(1);
 				}
 			}
@@ -293,103 +293,104 @@
 
 // EXPERTS
 .experts {
-	margin-top: 80px;
+	margin-top: 5.556vw;
 	position: relative;
 	.container {
 		display: flex;
 		justify-content: space-between;
-		gap: 24px;
+		gap: 1.667vw;
 	}
 	&__square {
 		background: #da4813;
-		height: 84px;
-		width: 300px;
+		height: 5.833vw;
+		width: 7vw;
 		position: absolute;
 		top: 0;
-		left: -25px;
+		left: -4.444vw;
 		transform: skewX(-20deg);
 	}
 	&__info {
 		&-title {
-			margin-bottom: 18px;
-			max-width: 430px;
+			margin-bottom: 1.25vw;
+			max-width: 29.861vw;
 		}
 		&-text {
 			font-family: "Manrope";
 			line-height: 157%;
-			max-width: 610px;
+			max-width: 50.361vw;
 			color: #454b48;
 			& + & {
-				margin-top: 30px;
+				margin-top: 2vw;
 			}
 		}
 		&-box {
 			display: flex;
 			justify-content: space-between;
+            gap: 1vw;
 		}
 		&-director {
-			margin-top: 64px;
+			margin-top: 4vw;
 		}
 	}
 	&__photo {
 		display: block;
-		margin-right: -40px;
+		margin-right: -2.778vw;
 		position: relative;
-        border-radius: 14px;
+        border-radius: 0.972vw;
 	}
 }
 
 // DIRECTOR
 .director {
 	background: #eaeaea;
-	padding: 40px 0;
+	padding: 2.778vw 0;
 	font-family: "Manrope";
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 0.972vw;
 	line-height: 157%;
-	height: 340px;
-	margin-top: -120px;
+	height: 23.611vw;
+	margin-top: -7vw;
 	&__job {
 		color: #e0491f;
 	}
 	&__name {
-		margin-top: 6px;
+		margin-top: 0.417vw;
 		font-weight: 700;
-		font-size: 20px;
+		font-size: 1.389vw;
 		color: rgba(0, 0, 0, 70%);
 	}
 }
 
 // ADVANTAGES
 .advantages {
-	margin-top: -142px;
+	margin-top: -9.861vw;
 	&__items {
 		display: flex;
 		align-items: stretch;
 		justify-content: space-between;
-		gap: 25px;
+		gap: 1.736vw;
 		&-item {
 			img {
 				display: block;
 			}
 			background: white;
-			border: 1px solid rgba(#000000, 10%);
-			border-radius: 16px;
+			border: 0.069vw solid rgba(#000000, 10%);
+			border-radius: 1.111vw;
 			width: 100%;
-			padding: 19px 23px 19px 18px;
+			padding: 1.319vw 1.597vw 1.319vw 1.25vw;
 			&-line {
 				background: rgba(#454b48, 10%);
-				height: 1px;
-				margin: 16px 13px 16px 0;
+				height: 0.069vw;
+				margin: 1.111vw 0.903vw 1.111vw 0;
 			}
 			&-title {
 				color: #454b48;
-				margin-bottom: 16px;
-				font-size: 32px;
+				margin-bottom: 1.111vw;
+				font-size: 2.222vw;
 				letter-spacing: -0.03em;
 				line-height: 100%;
-				max-width: 232px;
-				height: 64px;
+				max-width: 16.111vw;
+				height: 4.444vw;
 			}
 			&-text {
 				font-family: "Manrope";
@@ -403,27 +404,27 @@
 
 // SERVICES
 .services {
-	margin-top: 80px;
+	margin-top: 5.556vw;
 	&__head {
 		display: flex;
-		gap: 50px;
+		gap: 3.472vw;
 		align-items: flex-end;
-		margin-bottom: 35px;
+		margin-bottom: 2.431vw;
 		&-titles {
-			max-width: 695px;
+			max-width: 48.264vw;
 		}
 		&-button {
-			max-width: 284px;
+			max-width: 19.722vw;
 			color: white;
 			width: 100%;
-			border-radius: 8px;
+			border-radius: 0.556vw;
 			background: #da4813;
-			padding: 12px;
+			padding: 0.833vw;
 			font-family: "Manrope";
 			font-weight: 500;
 			line-height: 86.5%;
 			letter-spacing: -0.03em;
-			height: 64px;
+			height: 4.444vw;
 			position: relative;
 			display: flex;
 			&:hover {
@@ -434,8 +435,8 @@
 			}
 			img {
 				position: absolute;
-				right: 10px;
-				bottom: 8px;
+				right: 0.694vw;
+				bottom: 0.556vw;
 				filter: invert(1);
 			}
 		}
@@ -444,38 +445,38 @@
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(3, 1fr);
-		grid-column-gap: 16px;
-		grid-row-gap: 16px;
+		grid-column-gap: 1.111vw;
+		grid-row-gap: 1.111vw;
 		&-item {
 			position: relative;
-            border-radius: 14px;
+            border-radius: 0.972vw;
             overflow: hidden;
 			&-square {
-				width: 24px;
-				height: 24px;
+				width: 1.667vw;
+				height: 1.667vw;
 				background: #e0491f;
 				position: absolute;
-				top: 20px;
-				left: 20px;
+				top: 1.389vw;
+				left: 1.389vw;
 			}
 			&-title {
 				position: absolute;
-				bottom: 20px;
-				left: 20px;
-				right: 20px;
-				font-size: 28px;
+				bottom: 1.389vw;
+				left: 1.389vw;
+				right: 1.389vw;
+				font-size: 1.944vw;
 				letter-spacing: -0.03em;
 				line-height: 100%;
 				color: white;
 			}
 			&-open {
 				position: absolute;
-				width: 46px;
-				height: 46px;
-				border: 1px solid rgba(255, 255, 255, 20%);
-				border-radius: 6px;
-				top: 20px;
-				right: 20px;
+				width: 3.194vw;
+				height: 3.194vw;
+				border: 0.069vw solid rgba(255, 255, 255, 20%);
+				border-radius: 0.417vw;
+				top: 1.389vw;
+				right: 1.389vw;
 				&:hover {
 					background: white;
 				}
@@ -484,8 +485,8 @@
 				}
 				&-arrow {
 					position: absolute;
-					top: 6px;
-					right: 6px;
+					top: 0.417vw;
+					right: 0.417vw;
 					filter: invert(1);
 					transform: rotate(-90deg);
 					transition: all 0.2s;
@@ -495,9 +496,9 @@
 				display: block;
 			}
 			> img {
-				border-radius: 14px;
+				border-radius: 0.972vw;
 				width: 100%;
-				height: 298px;
+				height: 20.694vw;
 				object-fit: cover;
 			}
 			&--1 {
@@ -536,20 +537,20 @@
 
 // EQUIPMENT
 .equipment {
-	margin: 86px 0;
+	margin: 5.972vw 0;
 	background: #eaeaea;
-	padding: 64px 0;
+	padding: 4.444vw 0;
 	&__head {
 		display: flex;
 		align-items: flex-end;
 		justify-content: space-between;
 		&-titles {
-			max-width: 400px;
+			max-width: 27.778vw;
 		}
 		&-menu {
 			display: flex;
 			align-items: stretch;
-			gap: 6px;
+			gap: 0.417vw;
 			&-button {
 				&:first-child {
 					background: #e0491f;
@@ -559,34 +560,36 @@
 					background: #e0491f;
 					color: white;
 				}
-				height: 44px;
-				padding: 0 32px;
+				height: 3.056vw;
+				padding: 0 2.222vw;
 				color: #454b48;
 				font-family: "Manrope";
 				letter-spacing: -0.03em;
 				line-height: 100%;
 				text-align: center;
-				border-radius: 8px;
+				border-radius: 0.556vw;
 				background: white;
 			}
 		}
 	}
 	&__items {
-		margin-top: 44px;
+		margin-top: 3.056vw;
 		display: flex;
 		align-items: center;
-		gap: 30px;
+		gap: 2.083vw;
 		&-item {
-			border-radius: 16px;
+			border-radius: 1.111vw;
 			overflow: hidden;
 			position: relative;
 			letter-spacing: -0.03em;
 			color: white;
+            width: 100%;
 			img {
 				display: block;
+                width: 100%;
 			}
 			&-shadow {
-                border-radius: 16px;
+                border-radius: 1.111vw;
 			    overflow: hidden;
 				position: absolute;
 				left: 0;
@@ -599,15 +602,15 @@
 			}
 			&-title {
 				position: absolute;
-				left: 24px;
-				bottom: 50px;
-				font-size: 32px;
+				left: 1.667vw;
+				bottom: 3.472vw;
+				font-size: 2.222vw;
 				line-height: 100%;
 			}
 			&-tag {
 				font-family: "Manrope";
-				left: 24px;
-				bottom: 22px;
+				left: 1.667vw;
+				bottom: 1.528vw;
 				opacity: 40%;
 				position: absolute;
 			}
@@ -617,10 +620,13 @@
 
 // HOW WE WORK
 .howWeWork {
-	margin-top: 86px;
+	margin-top: 5.972vw;
 	&__content {
-		margin-top: 36px;
+		margin-top: 2.5vw;
 		position: relative;
+        > picture > img {
+            width: 100%;
+        }
 		img {
 			display: block;
 		}
@@ -632,24 +638,24 @@
 			display: flex;
 			align-items: center;
 			height: 100%;
-			padding-left: 26px;
-			padding-right: 50px;
+			padding-left: 1.806vw;
+			padding-right: 3.472vw;
 			justify-content: space-between;
 			&-item {
 				&:nth-child(2) {
-					padding-left: 40px;
+					padding-left: 2.778vw;
 				}
 				&-title {
-					max-width: 120px;
+					max-width: 8.333vw;
 					color: #454b48;
-					font-size: 32px;
+					font-size: 2.222vw;
 					line-height: 100%;
 					letter-spacing: -0.03em;
-					margin-top: 30px;
+					margin-top: 2.083vw;
 				}
 				&:last-child &-title {
 					color: white;
-					max-width: 235px;
+					max-width: 16.319vw;
 				}
 			}
 		}
@@ -658,51 +664,51 @@
 
 // CONSULTATION
 .consultation {
-	margin: 64px 0;
+	margin: 4.444vw 0;
 	.container {
-		border-radius: 15px;
+		border-radius: 1.042vw;
 		overflow: hidden;
 	}
 	&__content {
-		padding: 30px 34px;
+		padding: 2.083vw 2.361vw;
 		display: flex;
-		gap: 100px;
+		gap: 6.944vw;
 		background: url("../images/consultation.jpg") no-repeat center / cover;
-        border-radius: 16px;
+        border-radius: 1.111vw;
         overflow: hidden;
 		&-left {
 			color: white;
 			&-title {
-				font-size: 30px;
-				line-height: 30px;
+				font-size: 2.083vw;
+				line-height: 2.083vw;
 			}
 			&-text {
-				margin-top: 12px;
-				font-size: 52px;
+				margin-top: 0.833vw;
+				font-size: 3.611vw;
 				line-height: 100%;
-				max-width: 510px;
+				max-width: 35.417vw;
 			}
 		}
 		&-right {
-			max-width: 390px;
+			max-width: 27.083vw;
 			align-self: flex-end;
-			margin-bottom: 16px;
+			margin-bottom: 1.111vw;
 			&-text {
 				font-family: "Raleway";
-				font-size: 20px;
+				font-size: 1.389vw;
 				color: white;
-				margin-bottom: 12px;
+				margin-bottom: 0.833vw;
 			}
 			&-button {
 				width: 100%;
-				border-radius: 8px;
+				border-radius: 0.556vw;
 				background: white;
-				padding: 12px;
+				padding: 0.833vw;
 				font-family: "Manrope";
 				font-weight: 500;
 				line-height: 86.5%;
 				letter-spacing: -0.03em;
-				height: 64px;
+				height: 4.444vw;
 				position: relative;
 				display: flex;
 				&:hover {
@@ -713,8 +719,8 @@
 				}
 				img {
 					position: absolute;
-					right: 14px;
-					bottom: 8px;
+					right: 0.972vw;
+					bottom: 0.556vw;
 				}
 			}
 		}
@@ -723,19 +729,19 @@
 
 // CERTIFICATES
 .certificates {
-	margin: 64px 0;
+	margin: 4.444vw 0;
 	&__head {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
 	&__items {
-		margin-top: 40px;
+		margin-top: 2.778vw;
 		&-item {
 			position: relative;
 			&-photo {
 				display: block;
-                border-radius: 16px;
+                border-radius: 1.111vw;
 			}
 			&-shadow {
 				position: absolute;
@@ -745,37 +751,37 @@
 				right: 0;
 				background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
 				opacity: 0.65;
-				border-radius: 16px;
+				border-radius: 1.111vw;
 				transform: rotate(180deg);
 			}
 			&-info {
 				position: absolute;
-				left: 20px;
-				bottom: 32px;
+				left: 1.389vw;
+				bottom: 2.222vw;
 				z-index: 1;
 				color: white;
 				letter-spacing: -0.03em;
 				line-height: 100%;
 				&-title {
 					font-weight: 700;
-					font-size: 30px;
-					margin-bottom: 15px;
+					font-size: 2.083vw;
+					margin-bottom: 1.042vw;
 				}
 				&-extensions {
 					font-family: "Manrope";
-					font-size: 15px;
+					font-size: 1.042vw;
 				}
 			}
 			&-download {
-				width: 62px;
-				height: 62px;
-				border-radius: 8px;
-				padding: 8px;
+				width: 4.306vw;
+				height: 4.306vw;
+				border-radius: 0.556vw;
+				padding: 0.556vw;
 				background: white;
 				z-index: 1;
 				position: absolute;
-				right: 20px;
-				bottom: 32px;
+				right: 1.389vw;
+				bottom: 2.222vw;
 				cursor: pointer;
 				&:hover img {
 					transform: scale(2);
@@ -785,8 +791,8 @@
 				img {
 					transition: all 0.25s;
 					position: absolute;
-					bottom: 8px;
-					right: 8px;
+					bottom: 0.556vw;
+					right: 0.556vw;
 				}
 			}
 		}
@@ -795,21 +801,24 @@
 
 // CONTACTS
 .contacts {
-	margin: 64px 0;
+    padding: 0 2.778vw 0 4.444vw;
+	margin: 4.444vw 0;
 	.container {
+        border-top-right-radius: 0.694vw;
+        border-bottom-right-radius: 0.694vw;
 		background: #eaeaea;
-		padding: 40px 0 40px 50px;
+		padding: 2.778vw 0 2.778vw 3.472vw;
 		position: relative;
 	}
 	&__content {
 		&-info {
-			margin-top: 80px;
+			margin-top: 5.556vw;
 			&-item {
 				& + & {
-					margin-top: 19px;
+					margin-top: 1.319vw;
 				}
 				&-title {
-					margin-bottom: 10px;
+					margin-bottom: 0.694vw;
 					font-family: "Inter";
 					line-height: 140%;
 					letter-spacing: 2%;
@@ -818,11 +827,11 @@
 				&-block {
 					display: flex;
 					align-items: center;
-					gap: 17px;
+					gap: 1.181vw;
 					&-text {
 						text-transform: uppercase;
 						font-weight: 700;
-						font-size: 24px;
+						font-size: 1.667vw;
 						line-height: 140%;
 						color: #454b48;
 						text-decoration: underline;
@@ -832,29 +841,30 @@
 		}
 	}
 	&__map {
-		border-radius: 10px;
+		border-radius: 0.694vw;
 		overflow: hidden;
 		position: absolute;
 		top: 0;
-		right: -24px;
+		right: 0;
 		bottom: 0;
 		img {
 			display: block;
 			object-fit: cover;
 			height: 100%;
+            border-radius: 10px;
 		}
 	}
 }
 
 // FOOTER
 .footer {
-	padding: 35px 0;
+	padding: 2.431vw 0;
 	background-color: #eaeaea;
 	color: #454b48;
 	font-family: "Lato";
-	font-size: 13px;
+	font-size: 0.903vw;
 	letter-spacing: -0.03em;
-	line-height: 16px;
+	line-height: 1.111vw;
 	.container {
 		display: flex;
 		align-items: center;
@@ -863,16 +873,16 @@
 	&__feedback {
 		display: flex;
 		align-items: center;
-		gap: 20px;
+		gap: 1.389vw;
 		&-contacts {
 			display: flex;
 			align-items: flex-end;
 			flex-direction: column;
-			gap: 3px;
+			gap: 0.208vw;
 			&-contact {
 				&--phone {
 					font-weight: 700;
-					font-size: 15px;
+					font-size: 1.042vw;
 				}
 				&--order {
 				}
@@ -880,10 +890,10 @@
 		}
 		&-button {
 			background: #da4813;
-			border-radius: 8px;
-			padding: 18px 30px;
+			border-radius: 0.556vw;
+			padding: 1.25vw 2.083vw;
 			font-family: "Manrope";
-			font-size: 14px;
+			font-size: 0.972vw;
 			color: white;
 			line-height: 86%;
 			&:hover {
@@ -897,13 +907,13 @@
 .swiper__buttons {
 	display: flex;
 	align-items: stretch;
-	gap: 5px;
+	gap: 0.347vw;
 	&-button {
-		border-radius: 8px;
+		border-radius: 0.556vw;
 		background: #f7f7f7;
-		width: 64px;
-		height: 64px;
-		padding: 8px;
+		width: 4.444vw;
+		height: 4.444vw;
+		padding: 0.556vw;
 		position: relative;
 		img {
 			position: absolute;
@@ -914,7 +924,7 @@
 		}
 		&--left {
 			img {
-				left: 8px;
+				left: 0.556vw;
 			}
 			&:hover img {
 				left: 50%;
@@ -923,7 +933,7 @@
 		}
 		&--right {
 			img {
-				right: 8px;
+				right: 0.556vw;
 			}
 			&:hover img {
 				right: 50%;

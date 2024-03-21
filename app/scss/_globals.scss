@@ -1,6 +1,6 @@
 body {
 	font-family: "Bebas Neue";
-	font-size: 16px;
+	font-size: 1.111vw;
 }
 
 button, a {
@@ -8,13 +8,13 @@ button, a {
 }
 
 .container {
-	max-width: 1355px;
-	padding: 0 20px;
+	// max-width: 94.097vw;
+	padding: 0 4.444vw;
 	margin: 0 auto;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 3.333vw;
     letter-spacing: -0.03em;
     color: #454B48;
     line-height: 86%;
@@ -23,9 +23,9 @@ button, a {
 
 .subtitle {
     font-family: 'Manrope';
-    font-size: 14px;
+    font-size: 0.972vw;
     letter-spacing: -0.03em;
     line-height: 86%;
     color: #454B48;
-    margin-bottom: 16px;
+    margin-bottom: 1.111vw;
 }
