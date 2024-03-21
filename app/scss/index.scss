@@ -69,7 +69,12 @@
 			&-bg {
 				position: absolute;
 				top: 0;
-				left: 0;
+                border-radius: 5px;
+				left: -30px;
+                right: -30px;
+                height: 100%;
+                transform: skewX(-20deg);
+                background: #F3F3F3;
 			}
 			&-logo {
 				height: 56px;
@@ -330,6 +335,7 @@
 		display: block;
 		margin-right: -40px;
 		position: relative;
+        border-radius: 14px;
 	}
 }
 
@@ -442,6 +448,8 @@
 		grid-row-gap: 16px;
 		&-item {
 			position: relative;
+            border-radius: 14px;
+            overflow: hidden;
 			&-square {
 				width: 24px;
 				height: 24px;
@@ -578,6 +586,8 @@
 				display: block;
 			}
 			&-shadow {
+                border-radius: 16px;
+			    overflow: hidden;
 				position: absolute;
 				left: 0;
 				right: 0;
@@ -658,6 +668,8 @@
 		display: flex;
 		gap: 100px;
 		background: url("../images/consultation.jpg") no-repeat center / cover;
+        border-radius: 16px;
+        overflow: hidden;
 		&-left {
 			color: white;
 			&-title {
@@ -723,6 +735,7 @@
 			position: relative;
 			&-photo {
 				display: block;
+                border-radius: 16px;
 			}
 			&-shadow {
 				position: absolute;
