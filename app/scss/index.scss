@@ -320,7 +320,7 @@
 			max-width: 50.361vw;
 			color: #454b48;
 			& + & {
-				margin-top: 2vw;
+				margin-top: 1.85vw;
 			}
 		}
 		&-box {
@@ -334,8 +334,6 @@
 	}
 	&__photo {
 		display: block;
-		margin-right: -2.778vw;
-		position: relative;
         border-radius: 0.972vw;
 	}
 }
@@ -343,13 +341,13 @@
 // DIRECTOR
 .director {
 	background: #eaeaea;
-	padding: 2.778vw 0;
+	padding: 2.77vw 0;
 	font-family: "Manrope";
 	font-weight: 500;
 	font-size: 0.972vw;
 	line-height: 157%;
 	height: 23.611vw;
-	margin-top: -7vw;
+	margin-top: -4.6vw;
 	&__job {
 		color: #e0491f;
 	}
