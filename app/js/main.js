@@ -4,6 +4,6 @@ const swiper = new Swiper(".swiper", {
 		nextEl: ".swiper__buttons-button--right",
 		prevEl: ".swiper__buttons-button--left",
 	},
-    slidesPerView: 4,
-    spaceBetween: 18
+	slidesPerView: 4,
+	spaceBetween: 18,
 });

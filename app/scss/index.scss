@@ -1,7 +1,6 @@
-@import "reset";
-@import "media";
-@import "globals";
 @import "fonts";
+@import "reset";
+@import "globals";
 
 // HEADER
 .header {
@@ -114,6 +113,9 @@
 		gap: 1.667vw;
 		font-family: "Lato";
 		color: white;
+        &--mobile {
+            display: none;
+        }
 		&-info {
 			display: flex;
 			flex-direction: column;
@@ -223,11 +225,15 @@
 				right: 0.694vw;
 				bottom: 0.556vw;
 				filter: invert(1);
+                height: 1.11vw;
 			}
 		}
 	}
 	&__pipes {
 		margin-right: -4.444vw;
+        &--mobile {
+            display: none;
+        }
 	}
 }
 
@@ -330,12 +336,17 @@
 		}
 		&-director {
 			margin-top: 4vw;
+            font-family: 'Manrope';
 		}
 	}
 	&__photo {
 		display: block;
         border-radius: 0.972vw;
+        height: 40.208vw;
 	}
+    &__director {
+        display: none;
+    }
 }
 
 // DIRECTOR
@@ -370,6 +381,7 @@
 		&-item {
 			img {
 				display: block;
+                height: 3.06vw;
 			}
 			background: white;
 			border: 0.069vw solid rgba(#000000, 10%);
@@ -436,6 +448,7 @@
 				right: 0.694vw;
 				bottom: 0.556vw;
 				filter: invert(1);
+                height: 1.11vw;
 			}
 		}
 	}
@@ -488,6 +501,7 @@
 					filter: invert(1);
 					transform: rotate(-90deg);
 					transition: all 0.2s;
+                    height: 0.83vw;
 				}
 			}
 			img {
@@ -531,6 +545,9 @@
 			}
 		}
 	}
+    &__more {
+        display: none;
+    }
 }
 
 // EQUIPMENT
@@ -622,6 +639,9 @@
 	&__content {
 		margin-top: 2.5vw;
 		position: relative;
+        &--mobile {
+            display: none;
+        }
         > picture > img {
             width: 100%;
         }
@@ -740,6 +760,7 @@
 			&-photo {
 				display: block;
                 border-radius: 1.111vw;
+                height: 31.67vw;
 			}
 			&-shadow {
 				position: absolute;
@@ -791,9 +812,13 @@
 					position: absolute;
 					bottom: 0.556vw;
 					right: 0.556vw;
+                    height: 1.11vw;
 				}
 			}
 		}
+        &--mobile {
+            display: none;
+        }
 	}
 }
 
@@ -826,6 +851,9 @@
 					display: flex;
 					align-items: center;
 					gap: 1.181vw;
+                    img {
+                        height: 2.22vw;
+                    }
 					&-text {
 						text-transform: uppercase;
 						font-weight: 700;
@@ -922,6 +950,7 @@
 			display: block;
 			top: 50%;
 			transform: translateY(-50%);
+            height: 1.11vw;
 		}
 		&--left {
 			img {
@@ -943,3 +972,5 @@
 		}
 	}
 }
+
+@import "media";
