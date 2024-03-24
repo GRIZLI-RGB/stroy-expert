@@ -20,11 +20,11 @@
 			&__left {
 				&-menu {
 					&-item {
-                        background: rgba(0, 0, 0, 10%);
-                        color: black;
-                        img {
-                            filter: invert(1);
-                        }
+						background: rgba(0, 0, 0, 10%);
+						color: black;
+						img {
+							filter: invert(1);
+						}
 						&:hover {
 							background: rgba(0, 0, 0, 15%);
 						}
@@ -44,13 +44,13 @@
 				}
 				&-button {
 					background: rgba(0, 0, 0, 10%);
-                        color: black;
-                        img {
-                            filter: invert(1);
-                        }
-						&:hover {
-							background: rgba(0, 0, 0, 15%);
-						}
+					color: black;
+					img {
+						filter: invert(1);
+					}
+					&:hover {
+						background: rgba(0, 0, 0, 15%);
+					}
 				}
 			}
 		}
@@ -68,12 +68,12 @@
 			&-bg {
 				position: absolute;
 				top: 0;
-                border-radius: 0.347vw;
+				border-radius: 0.347vw;
 				left: -2.083vw;
-                right: -2.083vw;
-                height: 100%;
-                transform: skewX(-20deg);
-                background: #F3F3F3;
+				right: -2.083vw;
+				height: 100%;
+				transform: skewX(-20deg);
+				background: #f3f3f3;
 			}
 			&-logo {
 				height: 3.889vw;
@@ -113,9 +113,9 @@
 		gap: 1.667vw;
 		font-family: "Lato";
 		color: white;
-        &--mobile {
-            display: none;
-        }
+		&--mobile {
+			display: none;
+		}
 		&-info {
 			display: flex;
 			flex-direction: column;
@@ -225,15 +225,17 @@
 				right: 0.694vw;
 				bottom: 0.556vw;
 				filter: invert(1);
-                height: 1.11vw;
+				height: 1.11vw;
 			}
 		}
 	}
 	&__pipes {
-		margin-right: -4.444vw;
-        &--mobile {
-            display: none;
-        }
+        height: 35.14vw;
+		&-picture {
+			&--mobile {
+				display: none;
+			}
+		}
 	}
 }
 
@@ -332,21 +334,21 @@
 		&-box {
 			display: flex;
 			justify-content: space-between;
-            gap: 1vw;
+			gap: 1vw;
 		}
 		&-director {
 			margin-top: 4vw;
-            font-family: 'Manrope';
+			font-family: "Manrope";
 		}
 	}
 	&__photo {
 		display: block;
-        border-radius: 0.972vw;
-        height: 40.208vw;
+		border-radius: 0.972vw;
+		height: 40.208vw;
 	}
-    &__director {
-        display: none;
-    }
+	&__director {
+		display: none;
+	}
 }
 
 // DIRECTOR
@@ -381,7 +383,7 @@
 		&-item {
 			img {
 				display: block;
-                height: 3.06vw;
+				height: 3.06vw;
 			}
 			background: white;
 			border: 0.069vw solid rgba(#000000, 10%);
@@ -448,7 +450,7 @@
 				right: 0.694vw;
 				bottom: 0.556vw;
 				filter: invert(1);
-                height: 1.11vw;
+				height: 1.11vw;
 			}
 		}
 	}
@@ -460,8 +462,8 @@
 		grid-row-gap: 1.111vw;
 		&-item {
 			position: relative;
-            border-radius: 0.972vw;
-            overflow: hidden;
+			border-radius: 0.972vw;
+			overflow: hidden;
 			&-square {
 				width: 1.667vw;
 				height: 1.667vw;
@@ -501,7 +503,7 @@
 					filter: invert(1);
 					transform: rotate(-90deg);
 					transition: all 0.2s;
-                    height: 0.83vw;
+					height: 0.83vw;
 				}
 			}
 			img {
@@ -545,9 +547,9 @@
 			}
 		}
 	}
-    &__more {
-        display: none;
-    }
+	&__more {
+		display: none;
+	}
 }
 
 // EQUIPMENT
@@ -598,14 +600,14 @@
 			position: relative;
 			letter-spacing: -0.03em;
 			color: white;
-            width: 100%;
+			width: 100%;
 			img {
 				display: block;
-                width: 100%;
+				width: 100%;
 			}
 			&-shadow {
-                border-radius: 1.111vw;
-			    overflow: hidden;
+				border-radius: 1.111vw;
+				overflow: hidden;
 				position: absolute;
 				left: 0;
 				right: 0;
@@ -639,12 +641,12 @@
 	&__content {
 		margin-top: 2.5vw;
 		position: relative;
-        &--mobile {
-            display: none;
-        }
-        > picture > img {
-            width: 100%;
-        }
+		&--mobile {
+			display: none;
+		}
+		> picture > img {
+			width: 100%;
+		}
 		img {
 			display: block;
 		}
@@ -692,8 +694,8 @@
 		display: flex;
 		gap: 6.944vw;
 		background: url("../images/consultation.jpg") no-repeat center / cover;
-        border-radius: 1.111vw;
-        overflow: hidden;
+		border-radius: 1.111vw;
+		overflow: hidden;
 		&-left {
 			color: white;
 			&-title {
@@ -759,8 +761,8 @@
 			position: relative;
 			&-photo {
 				display: block;
-                border-radius: 1.111vw;
-                height: 31.67vw;
+				border-radius: 1.111vw;
+				height: 31.67vw;
 			}
 			&-shadow {
 				position: absolute;
@@ -812,23 +814,23 @@
 					position: absolute;
 					bottom: 0.556vw;
 					right: 0.556vw;
-                    height: 1.11vw;
+					height: 1.11vw;
 				}
 			}
 		}
-        &--mobile {
-            display: none;
-        }
+		&--mobile {
+			display: none;
+		}
 	}
 }
 
 // CONTACTS
 .contacts {
-    padding: 0 2.778vw 0 4.444vw;
+	padding: 0 2.778vw 0 4.444vw;
 	margin: 4.444vw 0;
 	.container {
-        border-top-right-radius: 0.694vw;
-        border-bottom-right-radius: 0.694vw;
+		border-top-right-radius: 0.694vw;
+		border-bottom-right-radius: 0.694vw;
 		background: #eaeaea;
 		padding: 2.778vw 0 2.778vw 3.472vw;
 		position: relative;
@@ -851,9 +853,9 @@
 					display: flex;
 					align-items: center;
 					gap: 1.181vw;
-                    img {
-                        height: 2.22vw;
-                    }
+					img {
+						height: 2.22vw;
+					}
 					&-text {
 						text-transform: uppercase;
 						font-weight: 700;
@@ -877,7 +879,7 @@
 			display: block;
 			object-fit: cover;
 			height: 100%;
-            border-radius: 10px;
+			border-radius: 10px;
 		}
 	}
 }
@@ -896,9 +898,9 @@
 		align-items: center;
 		justify-content: space-between;
 	}
-    &__logo {
-        height: 2.986vw;
-    }
+	&__logo {
+		height: 2.986vw;
+	}
 	&__feedback {
 		display: flex;
 		align-items: center;
@@ -950,7 +952,7 @@
 			display: block;
 			top: 50%;
 			transform: translateY(-50%);
-            height: 1.11vw;
+			height: 1.11vw;
 		}
 		&--left {
 			img {

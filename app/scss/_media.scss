@@ -71,7 +71,7 @@
 				max-width: 61.111vw;
 			}
 			&-button {
-                width: 100%;
+				width: 100%;
 				max-width: 78.889vw;
 				height: 17.778vw;
 				font-size: 4.444vw;
@@ -80,15 +80,22 @@
 				img {
 					right: 2.778vw;
 					bottom: 2.222vw;
-                    height: 4.444vw;
+					height: 4.444vw;
 				}
 			}
 		}
 		&__pipes {
 			display: none;
 			&--mobile {
-				display: block;
-				margin: 13.333vw 0;
+				width: 100%;
+                display: block;
+			}
+			&-picture {
+				&--mobile {
+                    width: 100%;
+					display: block;
+					margin-top: 10vw;
+				}
 			}
 		}
 	}
@@ -132,7 +139,7 @@
 	.experts {
 		margin-top: 17.778vw;
 		&--mobile {
-			margin-top: 13.333vw;
+			margin-top: 10.5vw;
 		}
 		.container {
 			flex-direction: column;
@@ -149,21 +156,21 @@
 					margin-top: 7.222vw;
 				}
 			}
-            &-box {
-                flex-direction: column;
-                gap: 7.222vw;
-            }
-            &-director {
-                margin: 8.889vw 0;
-                .director {
-                    &__job {
-                        font-size: 3.889vw;
-                    }
-                    &__name {
-                        font-size: 5.556vw;
-                    }
-                }
-            }
+			&-box {
+				flex-direction: column;
+				gap: 7.222vw;
+			}
+			&-director {
+				margin: 8.889vw 0;
+				.director {
+					&__job {
+						font-size: 3.889vw;
+					}
+					&__name {
+						font-size: 5.556vw;
+					}
+				}
+			}
 		}
 		&__photo {
 			width: 100%;
